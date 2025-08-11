@@ -258,7 +258,7 @@ nav {
 
 .service__card {
   padding: 2rem 1rem;
-  text-align: center;
+
   background-image: var(--gradient-2);
   border-radius: 1rem;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
@@ -272,13 +272,29 @@ nav {
 
 .service__card h4 {
   margin-bottom: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
-.service__card p {
+.service__card dl {
   color: var(--extra-light);
-  line-height: 2rem;
+}
+
+.service__card dt {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.service__card dd + dd {
+  margin-top: 20px; /* only when one dd follows another dd */
+}
+
+.service__card li + li {
+  margin-top: 20px; /* only when one dd follows another dd */
+}
+
+.service__card li{
+  margin-left: 10px; /* only when one dd follows another dd */
 }
 
 .portfolio__grid {
