@@ -1,4 +1,4 @@
-const navLinks = document.getElementById("nav-links");
+/*const navLinks = document.getElementById("nav-links");
 const menuBtn = document.getElementById("menu-btn");
 const menuBtnIcon = menuBtn.querySelector("i");
 
@@ -16,6 +16,7 @@ navLinks.addEventListener("click", (e) => {
   navLinks.classList.remove("open");
   menuBtnIcon.setAttribute("class", "ri-menu-3-line");
 });
+*/
 
 const scrollRevealOption = {
   distance: "50px",
