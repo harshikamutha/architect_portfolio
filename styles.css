@@ -109,12 +109,11 @@ nav {
   list-style: none;
   position: absolute;
   width: 100%;
-  
+  padding: 2rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 2rem;
-  padding: 2rem;
   /*background-image: var(--gradient-2);*/
   transform: translateY(10%);
   transition: 0.5s;
@@ -149,13 +148,11 @@ nav {
   .nav__bar {
     padding: 0;
     background-image: none;
-    justify-content: space-around;
   }
 
   
 
   .nav__links {
-    margin: 0;
     padding: 0;
     width: unset;
     position: static;
@@ -447,8 +444,6 @@ nav {
     transform: none;
     flex-direction: row;
     background-image: none;
-    gap: 2rem;
-    padding: 2rem;
   }
 
   .nav__links a:hover {
