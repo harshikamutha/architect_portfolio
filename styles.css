@@ -109,7 +109,7 @@ nav {
   list-style: none;
   position: absolute;
   width: 100%;
-  padding: 2rem;
+  padding: 1rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -536,3 +536,4 @@ nav {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
