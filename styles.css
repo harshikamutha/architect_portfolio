@@ -536,3 +536,8 @@ nav {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+@media(width<547px){
+  .nav__links {
+  gap: 2rem;
+  }
+}
