@@ -1,17 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
-:root {
-  --primary-color: #e9615e;
-  --secondary-color: #ec9956;
-  --extra-light: #f3f4f6;
-  --white: #ffffff;
-  --gradient-1: linear-gradient(to bottom right, #62393c, #181e41);
-  --gradient-2: linear-gradient(
-    to bottom,
-    var(--primary-color),
-    var(--secondary-color)
-  );
-}
 
 * {
   padding: 0;
@@ -175,4 +163,33 @@ footer a:hover,
 footer i:hover,
 footer img:hover {
   transform: scale(1.07);         /* make it 20% bigger */
+}
+
+@media(width < 740px){
+  #myHeading{
+    display: none;
+  }
+  .all__photos {
+  width: 100%;          /* Ensure container never exceeds page width */
+  padding: 2rem 2rem;        /* keep your padding */
+  gap: 2rem;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .container_1 ul li:not(:last-child)::after {
+  content: "|";
+  margin-left: 1.5rem;   /* space after the text before the bar */
+  }
+  .container_2{
+    margin-bottom: 3rem;
+  }
+  .contact__socials{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
 }
