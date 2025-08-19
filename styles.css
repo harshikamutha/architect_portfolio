@@ -538,6 +538,6 @@ nav {
 }
 @media(width<547px){
   .nav__links {
-  gap: 2rem;
+  gap: 1rem;
   }
 }
